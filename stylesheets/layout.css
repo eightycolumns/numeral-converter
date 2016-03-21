@@ -1,0 +1,26 @@
+html {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+main {
+  display: block;
+}
+
+#closeButton {
+  height: 32px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 32px;
+}
+
+#instructions, input, #output {
+  margin-top: 32px;
+}

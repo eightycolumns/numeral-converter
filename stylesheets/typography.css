@@ -1,0 +1,21 @@
+main {
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+input {
+  font-family: inherit;
+  font-size: 64px;
+  line-height: inherit;
+  text-align: center;
+}
+
+#output {
+  font-size: 32px;
+}

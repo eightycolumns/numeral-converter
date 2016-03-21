@@ -1,0 +1,11 @@
+main {
+  color: #333;
+}
+
+input {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px 0;
+  box-sizing: border-box;
+  color: inherit;
+}

@@ -1,0 +1,15 @@
+* {
+  cursor: default;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
