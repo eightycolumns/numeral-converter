@@ -1,10 +1,7 @@
 (function () {
 
 function isArabicNumeral(string) {
-  var arabicNumeral = new RegExp(
-    '^(?:0|[1-9]\\d*)$'
-  );
-
+  var arabicNumeral = /^(?:0|[1-9]\d*)$/;
   return arabicNumeral.test(string);
 }
 
@@ -17,7 +14,7 @@ function isRomanNumeral(string) {
     '(?:V?I{0,3}|IX|IV)$', 'i'
   );
 
-  var uniformCase = new RegExp('^(?:[^A-Z]*|[^a-z]*)$');
+  var uniformCase = /^(?:[^A-Z]*|[^a-z]*)$/;
 
   return romanNumeral.test(string) && uniformCase.test(string);
 }
